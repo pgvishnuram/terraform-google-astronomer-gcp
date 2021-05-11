@@ -18,7 +18,7 @@ export GOOGLE_APPLICATION_CREDENTIALS='/tmp/account.json'
 
 # unique deployment ID to avoid collisions in CI
 # needs to be 32 characters or less and start with letter
-DEPLOYMENT_ID=ci$(echo "${CIRCLE_PROJECT_REPONAME}${CIRCLE_BUILD_NUM}" | md5sum | awk '{print substr($1,0,5)}')
+DEPLOYMENT_ID=ci$(echo "${CIRCLE_PROJECT_REPONAME}${CIRCLE_SHA1}" | md5sum | awk '{print substr($1,0,5)}')
 ZONAL='true'
 
 if [[ "$REGIONAL" -eq 1 ]]; then
