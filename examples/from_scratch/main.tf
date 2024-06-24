@@ -4,6 +4,11 @@ variable "zonal" {
   default = false
 }
 
+variable "spotinist_token" {
+  default = "DUMMY"
+  type    = string
+}
+
 module "astronomer_gcp" {
   source                     = "../.."
   deployment_id              = var.deployment_id

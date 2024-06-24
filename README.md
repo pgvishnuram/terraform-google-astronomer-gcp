@@ -1,6 +1,10 @@
 # Terraform Module for Astronomer for GCP
 
-[![Build Status](https://cloud.drone.io/api/badges/astronomer/terraform-google-astronomer-gcp/status.svg)](https://cloud.drone.io/astronomer/terraform-google-astronomer-gcp)
+[![GitHub release](https://img.shields.io/github/release/astronomer/terraform-google-astronomer-gcp)](https://github.com/astronomer/terraform-google-astronomer-gcp/releases/latest)
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/astronomer/terraform-google-astronomer-gcp/pulls)
+
+[![Build Status](https://circleci.com/gh/astronomer/terraform-google-astronomer-gcp.svg?style=shield)](https://circleci.com/gh/astronomer/terraform-google-astronomer-gcp)
 
 Requires Terraform 0.13+
 

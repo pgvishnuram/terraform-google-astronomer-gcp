@@ -1,7 +1,7 @@
 terraform {
   required_version = ">= 0.13"
   backend "gcs" {
-    bucket  = "cloud2-dev-terraform"
+    bucket  = "cloudfico-dev-terraform"
     prefix  = "REPLACE/terraform.tfstate"
   }
 }
